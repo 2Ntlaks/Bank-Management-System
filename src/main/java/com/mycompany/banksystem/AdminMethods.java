@@ -71,7 +71,7 @@ public class AdminMethods {
      * @param password The password of the new user (not hashed for simplicity).
      * @param role The role of the new user (default: "user").
      */
-    public static void addUserToDatabase(String username, String password, String role) {
+    public static int addUserToDatabase(String username, String password, String role) {
         int accountNumber = generateAccountNumber();
         String userQuery = "INSERT INTO Users (username, password, role) VALUES (?, ?, 'user')";
 
@@ -81,9 +81,11 @@ public class AdminMethods {
             stmt.executeUpdate();
             System.out.println("User added successfully.");
             addAccount(accountNumber, username);
+            return accountNumber;
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return -1;
     }
 
     /**

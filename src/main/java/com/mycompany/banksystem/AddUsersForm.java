@@ -135,11 +135,9 @@ public class AddUsersForm extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Please fill in all fields.", "Input Error", JOptionPane.ERROR_MESSAGE);
         } else {
             
-            AdminMethods adminMethods = new AdminMethods();  // Create reference to AdminMethods class
-            
-            // Generate a unique account number for the new user
-             int accountNumber = AdminMethods.generateAccountNumber();
-            adminMethods.addUserToDatabase(username, password, role);  // Call the method to add the user
+        AdminMethods adminMethods = new AdminMethods();  // Create reference to AdminMethods class
+
+            int accountNumber = adminMethods.addUserToDatabase(username, password, role);  // Add user and get generated account number
 
               // Show success message with the account number
            JOptionPane.showMessageDialog(null, "User added successfully! Account Number: " + accountNumber, "Success", JOptionPane.INFORMATION_MESSAGE);
