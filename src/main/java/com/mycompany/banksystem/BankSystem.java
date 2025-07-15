@@ -115,7 +115,8 @@ public class BankSystem {
                     String newPassword = scanner.next();
                     String role = "user";
 
-                    adminMethods.addUserToDatabase(newUsername, newPassword, role);
+                    int accNum = adminMethods.addUserToDatabase(newUsername, newPassword, role);
+                    System.out.println("User added successfully. Account Number: " + accNum);
                     break;
                 case 2:
                     adminMethods.getAllUsers();
