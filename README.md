@@ -645,7 +645,7 @@ in the Software without restriction...
 ## 👥 Team
 
 ### Project Maintainer
-- **Name**: Ntlakani Phomgaguli
+- **Name**: Ntlakanipho Mgaguli
 - **Role**: Lead Developer
 - **Email**: ntlakaniphomgaguli210@gmail.com
 - **GitHub**: [@2Ntlaks](https://github.com/2Ntlaks)
@@ -664,18 +664,9 @@ in the Software without restriction...
 - 📖 **Wiki**: [Project Wiki](https://github.com/2Ntlaks/Bank-Management-System/wiki)
 
 ### Connect
-- 🔗 **LinkedIn**: [Connect on LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐦 **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- 🔗 **LinkedIn**: [Connect on LinkedIn](https://linkedin.com/in/ntlakaniphomgaguli)
 
 ---
-
-## 🌟 Acknowledgments
-
-- Thanks to all contributors who have helped shape this project
-- MySQL team for the robust database system
-- Oracle for Java and continuous improvements
-- The open-source community for invaluable resources
-
 ---
 
 ## 📈 Project Status
@@ -684,17 +675,6 @@ in the Software without restriction...
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-82%25-yellowgreen)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-
-### Roadmap
-
-- [ ] Mobile application (Android/iOS)
-- [ ] REST API implementation
-- [ ] Microservices architecture
-- [ ] Cloud deployment (AWS/Azure)
-- [ ] AI-powered fraud detection
-- [ ] Blockchain integration
-- [ ] Multi-currency support
-- [ ] Biometric authentication
 
 ---
 
